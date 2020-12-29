@@ -31,7 +31,7 @@
   --shadow-2: rgba(0, 0, 0, 0.2);
   --web-wash: #f0f2f5;
 
-  --tag-color: #a8c5ff;
+  --tag-color: #757575;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
   width: 100%;
   width: var(--page-width);
   height: var(--page-height);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -93,9 +93,7 @@ h2 {
 
 #title {
   position: relative;
-  left: 0.55in;
   margin-bottom: 0.3in;
-  line-height: 1.2;
 }
 
 #title h1 {
@@ -152,7 +150,7 @@ h2 {
   z-index: 0;
   line-height: 0;
   font-size: 0;
-  content: ' ';
+  content: " ";
 }
 
 /**** minor tweaks on the icon fonts ****/
@@ -199,7 +197,7 @@ h2 {
   right: 5.5pt;
   display: block;
   height: 10pt;
-  content: '|';
+  content: "|";
 }
 
 .decorator {
@@ -223,7 +221,7 @@ h2 {
   position: absolute;
   top: var(--decorator-outer-offset-top);
   left: var(--decorator-outer-offset-left);
-  content: ' ';
+  content: " ";
   display: block;
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
@@ -236,7 +234,7 @@ h2 {
   left: calc(
     var(--decorator-outer-offset-left) + var(--decorator-border-width)
   );
-  content: ' ';
+  content: " ";
   display: block;
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   height: calc(
@@ -306,7 +304,7 @@ h2 {
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
-  content: '\f041';
+  content: "\f041";
 }
 
 /***** fine-tunes on the lists... *****/
@@ -324,7 +322,7 @@ h2 {
 #main .hightlight li::before {
   position: relative;
   margin-left: -4.25pt;
-  content: '• ';
+  content: "• ";
 }
 
 .details .concise ul {
@@ -395,23 +393,21 @@ ul {
 
 #disclaimer code {
   color: #666;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
 }
 
 .portrait {
-  transform: rotate(270deg);
-  height: 140px;
-  position: relative;
-  left: -22px;
+  image-orientation: from-image;
+  width: 125px;
 }
 
 .meter {
   margin: 8px;
   height: 6px; /* Can be anything */
   position: relative;
-  background: #555;
+  background: #757575;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -424,11 +420,11 @@ ul {
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: rgb(43, 194, 83);
+  background-color: rgb(243, 213, 25);
   background-image: linear-gradient(
     center bottom,
-    rgb(43, 194, 83) 37%,
-    rgb(84, 240, 84) 69%
+    rgb(243, 213, 25) 37%,
+    rgb(214, 187, 18) 69%
   );
   box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
     inset 0 -2px 6px rgba(0, 0, 0, 0.4);
@@ -439,11 +435,13 @@ ul {
   list-style-type: none;
 }
 .tech-stack li {
-  /* font-size: 8px; */
+  font-size: 8px;
+  text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
-  padding: 3px 6px;
+  padding: 4px 6px;
   margin: 3px;
   background: var(--tag-color);
   border-radius: 6px;
+  line-height: 12px;
 }
