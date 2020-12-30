@@ -44,7 +44,7 @@ body {
   width: 100%;
   width: var(--page-width);
   height: var(--page-height);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -150,7 +150,7 @@ h2 {
   z-index: 0;
   line-height: 0;
   font-size: 0;
-  content: " ";
+  content: ' ';
 }
 
 /**** minor tweaks on the icon fonts ****/
@@ -197,7 +197,7 @@ h2 {
   right: 5.5pt;
   display: block;
   height: 10pt;
-  content: "|";
+  content: '|';
 }
 
 .decorator {
@@ -221,20 +221,20 @@ h2 {
   position: absolute;
   top: var(--decorator-outer-offset-top);
   left: var(--decorator-outer-offset-left);
-  content: " ";
+  content: ' ';
   display: block;
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
   background-color: #fff;
 }
-#F0F2F5 .decorator::after {
+.decorator::after {
   position: absolute;
   top: calc(var(--decorator-outer-offset-top) + var(--decorator-border-width));
   left: calc(
     var(--decorator-outer-offset-left) + var(--decorator-border-width)
   );
-  content: " ";
+  content: ' ';
   display: block;
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   height: calc(
@@ -304,7 +304,7 @@ h2 {
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
-  content: "\f041";
+  content: '\f041';
 }
 
 /***** fine-tunes on the lists... *****/
@@ -322,7 +322,7 @@ h2 {
 #main .hightlight li::before {
   position: relative;
   margin-left: -4.25pt;
-  content: "• ";
+  content: '• ';
 }
 
 .details .concise ul {
@@ -393,7 +393,7 @@ ul {
 
 #disclaimer code {
   color: #666;
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-weight: 400;
   font-style: normal;
 }
@@ -439,8 +439,8 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
-  padding: 4px 6px;
-  margin: 3px;
+  padding: 2px 6px;
+  margin: 0 2px;
   background: var(--tag-color);
   border-radius: 6px;
   line-height: 12px;
