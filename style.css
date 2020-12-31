@@ -420,10 +420,10 @@ ul {
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: rgb(243, 213, 25);
+  background-color: rgb(171, 171, 241);
   background-image: linear-gradient(
     center bottom,
-    rgb(243, 213, 25) 37%,
+    rgb(171, 171, 241) 37%,
     rgb(214, 187, 18) 69%
   );
   box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
@@ -444,4 +444,11 @@ ul {
   background: var(--tag-color);
   border-radius: 6px;
   line-height: 12px;
+}
+
+.text-with-link {
+}
+.text-with-link a {
+  color: rgb(171, 171, 241);
+  text-decoration: none; /* no underline */
 }
