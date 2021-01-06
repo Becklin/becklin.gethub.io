@@ -4,11 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <script defer src="./all.min.js"></script>
+    <script defer src="./modal.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="modal.css" />
 </head>
 
 <body lang="en">
     <div id="container">
+        <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img class="sc1" src="./sc1.png" />
+          <img class="sc2" src="./sc2.png" />
+        </div>
+      </div>
+      <div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content2">
+            <span class="close">&times;</span>
+            <img class="sc3" src="./sc3.png" />
+        </div>
+        </div>
         <section id="main">
             <header id="title">
                 <h1>Beck Lin</h1>
@@ -170,7 +188,7 @@
                     </div>
                     <div class="details">
                         <header>
-                            <h3 class="text-with-link">Jarvis DMS <a href="">screen shots</a></h3>
+                            <h3 class="text-with-link">Jarvis DMS <span id="myBtn">screen shots</span></h3>
                             <span class="place">Delta Electronics, Inc</span>
                         </header>
                         <div>
@@ -190,7 +208,7 @@
                     </div>
                     <div class="details">
                         <header>
-                            <h3 class="text-with-link">Shopping mall web app <a href="">screen shots</a></h3>
+                            <h3 class="text-with-link">Shopping mall web app <span id="myBtn2">screen shots</span></h3>
                             <span class="place">Eastern Home Shopping & Leisure Co., Ltd.</span>
                         </header>
                         <div>

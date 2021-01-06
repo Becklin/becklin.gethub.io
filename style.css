@@ -458,9 +458,9 @@ ul {
   line-height: 12px;
 }
 
-.text-with-link {
-}
+.text-with-link span,
 .text-with-link a {
+  cursor: pointer;
   color: rgb(171, 171, 241);
   text-decoration: none; /* no underline */
 }
