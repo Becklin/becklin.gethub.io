@@ -38,7 +38,8 @@ a:hover {
   --main-blocks-title-icon-offset-left: -19pt;
 
   --shadow-2: rgba(0, 0, 0, 0.2);
-  --web-wash: #f0f2f5;
+  --web-wash: #ffffff; 
+  /*#f0f2f5;*/
 
   --tag-color: #757575;
 }
