@@ -23,7 +23,7 @@ a:hover {
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
-  --sidebar-horizontal-padding: 0.2in;
+  /*--sidebar-horizontal-padding: 0.2in;
 
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
@@ -65,7 +65,7 @@ body {
   color: #444;
   hyphens: auto;
   box-shadow: 0 1px 2px var(--shadow-2);
-  overflow-y: auto;
+  overflow-y: overlay;
 }
 
 h1,
@@ -130,7 +130,7 @@ h3 {
 /*** categorial blocks ***/
 
 .main-block {
-  margin-top: 0.1in;
+  margin-top: 0.4in;
 }
 
 #main h2 {
