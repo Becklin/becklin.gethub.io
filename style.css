@@ -38,7 +38,7 @@ a:hover {
   --main-blocks-title-icon-offset-left: -19pt;
 
   --shadow-2: rgba(0, 0, 0, 0.2);
-  --web-wash: #ffffff; 
+  --web-wash: #ffffff;
   /*#f0f2f5;*/
 
   --tag-color: #757575;
@@ -56,10 +56,10 @@ body {
   margin: auto;
   width: 100%;
   width: var(--page-width);
-  height: var(--page-height);
+  height: 100%;
   /* height: 100%; */
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -166,7 +166,7 @@ h3 {
   z-index: 0;
   line-height: 0;
   font-size: 0;
-  content: ' ';
+  content: " ";
 }
 
 /**** minor tweaks on the icon fonts ****/
@@ -213,7 +213,7 @@ h3 {
   right: 5.5pt;
   display: block;
   height: 10pt;
-  content: '|';
+  content: "|";
 }
 
 .decorator {
@@ -237,7 +237,7 @@ h3 {
   position: absolute;
   top: var(--decorator-outer-offset-top);
   left: var(--decorator-outer-offset-left);
-  content: ' ';
+  content: " ";
   display: block;
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
@@ -250,7 +250,7 @@ h3 {
   left: calc(
     var(--decorator-outer-offset-left) + var(--decorator-border-width)
   );
-  content: ' ';
+  content: " ";
   display: block;
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
   height: calc(
@@ -339,7 +339,7 @@ h3 {
 #main .hightlight li::before {
   position: relative;
   margin-left: -4.25pt;
-  content: '• ';
+  content: "• ";
 }
 
 .details .concise ul {
@@ -387,10 +387,12 @@ h3 {
   line-height: 2;
 }
 
-#skills {
+#skills,
+#education {
   line-height: 1.5;
 }
-#skills li {
+#skills li,
+#education li {
   text-indent: 8px;
 }
 
@@ -412,7 +414,7 @@ ul {
 
 #disclaimer code {
   color: #666;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
 }
