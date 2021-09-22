@@ -109,7 +109,6 @@ h3 {
 
 #title {
   position: relative;
-  margin-bottom: 0.2inch;
 }
 
 #title h1 {
@@ -128,6 +127,10 @@ h3 {
 }
 
 /*** categorial blocks ***/
+
+.main-block {
+  margin-top: 0.2in;
+}
 
 #main h2 {
   position: relative;
