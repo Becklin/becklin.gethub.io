@@ -109,7 +109,6 @@ h3 {
 
 #title {
   position: relative;
-  margin-bottom: 0.3in;
 }
 
 #title h1 {
@@ -391,8 +390,7 @@ h3 {
 #education {
   line-height: 1.5;
 }
-#skills li,
-#education li {
+#skills li {
   text-indent: 8px;
 }
 
